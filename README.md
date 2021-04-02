@@ -2,7 +2,7 @@ April 2019
 
 # Atoms
 
-I separated the code into a main function `main.cpp` four `.cpp` files containing classes:
+The code is organised as follows:
 *	`Atom.cpp` contains all content of an atom, and member functions that can read in atoms from a string, print out the atom in a MFI format, etc.
 *	`AtomList.cpp` contains the class of the atom `list`. This has a private member where the list is stored.  The member functions can print out (a) specific atom(s) or element(s).
 *	`Com.cpp` contains, calculates and prints the center of mass
